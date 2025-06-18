@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fonte1: "Montserrat", sans-serif; 
+    --fonte2: "Bungee Spice", sans-serif;
+    --fonte3: "Krona One", sans-serif;
+    --fonte4: "Cascadia Code", sans-serif;
+}
+
+body{
+    background-color: rgb(171, 194, 234);
+    font-family: var(--fonte1);
+}
+
+main{
+    margin: 3rem auto;
+    width: 600px;
+    padding: 1.5rem;
+    background-color: rgb(60, 60, 163);
+    border-radius: 10px;
+    box-shadow: 4px 2px 17px black;
+}
+
+h1{
+    text-align: center;
+    color: rgb(136, 201, 15);
+    text-shadow: 2px 2px 2px black ;
+    margin-bottom: 1rem;
+}
+h2{
+    font-family: var(--fonte3);
+    color: rgb(136, 201, 15);
+    text-shadow: 2px 2px 2px black ;
+    margin: 0.2rem 0;
+}
+label{
+    font-weight: 600;
+    font-family: var(--fonte4);
+    font-size: 1.2rem;
+    display: block;
+    margin: 7px 0;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+input{
+    border-radius: 4px;
+}
+select{
+    border-radius: 4px;
+}
+.entrada-principal{
+    width: 70%;
+    padding: 0.6rem;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: space-around;
+    justify-items: right;
+    margin-bottom: 1rem;
+    gap: 7px;
+    position: relative;
+    right: 0.5rem;
+}
+
+section input{
+    padding: 5px;
+
+}
+
+button{
+    padding: 0.7rem;
+    width: 100%;
+    margin: 5px 0px;
+    background-color:aquamarine;
+    border: 3px;
+    border-style: outset;
+    border-color: black;    
+    cursor: pointer;
+    font-family: var(--fonte3);
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(93, 216, 175);
+}
+button:active{
+    border-style: solid;
+}
+#mediaAluno{
+    padding: 0.6rem;
+    background-color:wheat;
+    color: red;
+}
+#situacaoAluno{
+    width: 100%;
+    padding: 0.6rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
