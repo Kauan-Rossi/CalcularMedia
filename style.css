@@ -13,15 +13,18 @@
 body{
     background-color: rgb(171, 194, 234);
     font-family: var(--fonte1);
+    max-height: 100vh;
+  
 }
 
 main{
-    margin: 3rem auto;
+    margin: 2rem auto;
     width: 600px;
     padding: 1.5rem;
     background-color: rgb(60, 60, 163);
     border-radius: 10px;
     box-shadow: 4px 2px 17px black;
+
 }
 
 h1{
@@ -94,6 +97,8 @@ button:active{
     padding: 0.6rem;
     background-color:wheat;
     color: red;
+    font-family: var(--fonte3);
+    font-size: 1.4rem;
 }
 #situacaoAluno{
     width: 100%;
